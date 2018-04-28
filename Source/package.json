@@ -1,0 +1,151 @@
+{
+    "author": "rao",
+    "dependencies": {
+        "pebble-clay": "^1.0.3"
+    },
+    "keywords": [],
+    "name": "neat-digital",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable"
+        ],
+        "displayName": "Neat Digital",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "TEMPERATURE",
+            "CONDITIONS",
+            "ICON_NUMBER",
+            "COLOR_TIME_BG",
+            "COLOR_TIME_STROKE",
+            "COLOR_WEATHER_BG",
+            "COLOR_WEATHER_STROKE",
+            "COLOR_BATTERY_BAR",
+            "TEMPERATURE_UNIT",
+            "TEMPERATURE_TYPE",
+            "LOCATION_SOURCE",
+            "LOCATION_STATE_CODE",
+            "LOCATION_CITY",
+            "API_KEY_WU",
+            "SETTINGS",
+            "UPDATE_INTERVAL",
+            "VIBRATE_DISCONNECT",
+            "SHOW_CONDITIONS",
+            "DATE_FORMAT"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/screenshot_icon.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_SCREENSHOT_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/sunset.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_SUNSET",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/sunrise.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_SUNRISE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/rain.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_RAIN",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/partlysunny.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_PARTLYSUNNY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/tstorms.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_TSTORMS",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/snow.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_SNOW",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/sleet.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_SLEET",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/partlycloudy.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_PARTLYCLOUDY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/fog.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_FOG",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/cloudy.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_CLOUDY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/clear_night.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_CLEAR_NIGHT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/clear_day.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_CLEAR_DAY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/test.png",
+                    "memoryFormat": "1BitPalette",
+                    "name": "IMAGE_TEST",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "diorite"
+        ],
+        "uuid": "2d47dfc9-5e55-4a4a-a2c3-de97aab86d2a",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "2.0.0"
+}

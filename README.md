@@ -4,7 +4,6 @@ A digital watchface for pebble
 
 ![Screenshot](./Screenshots/screenshot.png)
 ![Screenshot](./Screenshots/screenshot_2.png)
-![Screenshot](./Screenshots/screenshot_3.png)
 ![Screenshot](./Screenshots/screenshot_4.png)
 ![Screenshot](./Screenshots/screenshot_bw.png)
 
